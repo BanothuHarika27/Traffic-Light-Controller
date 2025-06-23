@@ -7,7 +7,7 @@ The given code defines a traffic light controller module in Verilog, which manag
 ## 2. State Machine:
 - The controller operates as a finite state machine(FSM) with six states (S0 to S5).
 - Parameters sec7, sec5, sec2, sec3 define the duration of each state in clock cycles.
- ## 3.Behavior:
+## 3.Behavior:
  - On the rising edge of the clock or reset, the FSM transitions between states based on a counter that increments with each clock cycle.
  - The state transitions occur as follows:
     *S0: Main road 1 and 2 are green, others are red.
@@ -17,7 +17,7 @@ The given code defines a traffic light controller module in Verilog, which manag
     *S4: Side road is green, others are red.
     *S5: Side road is yellow, others are red.
    - Each state lasts for a predefined number of clock cycles before transitioning to the next state.
-   ## 4. Output Logic:
+## 4. Output Logic:
    - The outputs are updated based on the current state (ps). Each state assigns specific colors to the traffic lights:
     *3'b001 represents green.
     *3'b010 represents yellow.
