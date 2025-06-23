@@ -1,7 +1,7 @@
 # Traffic-Light-Controller
 The given code defines a traffic light controller module in Verilog, which manages the states of traffic lights at an intersection. The module has the following features:
 ## 1. Inputs and Outputs:
-  - clk: Clock signal.
+  - clk: Clock signal. 
   - rst: Reset signal.
   - light_M1, light_S, light_MT, light_M2:Outputs representing the light states for main road 1, side road, main road turn, and main road 2, respectively. Each output is a 3-bit signal representing the colors (e.g., Red, Yellow, Green).
 ## 2. State Machine:
